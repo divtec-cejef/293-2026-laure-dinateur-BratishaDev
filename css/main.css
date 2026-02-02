@@ -70,3 +70,32 @@ header {
 .metier {
     margin-top: -5px;
 }
+
+nav {
+    padding: 10px 10px;
+    margin: 20px;
+}
+
+nav ul .Accueil {
+    display: none;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 10px 0 10px;
+}
+
+nav ul li {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    color: #fdfffc;
+    font-weight: 800;
+    gap: 30px;
+    padding: 15px 10px;
+}
+nav ul li a:hover {
+    color: #2ec4b6;
+}
