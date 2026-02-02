@@ -58,3 +58,15 @@ header {
     padding-top: 5px;
     margin-bottom: 30px;
 }
+
+.nom {
+    color: #2ec4b6;
+    font-family: 'Changa One', sans-serif;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin: 1rem 0;
+}
+
+.metier {
+    margin-top: -5px;
+}
