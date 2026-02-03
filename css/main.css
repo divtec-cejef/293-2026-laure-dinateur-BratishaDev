@@ -109,11 +109,17 @@ footer {
     text-align: center;
 }
 
+div.logo-box {
+    display: flex;
+    justify-content: center;
+}
 main #photo {
     max-width: 150px;
     border-radius: 360px;
+}
+main h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-
 }
+
+
