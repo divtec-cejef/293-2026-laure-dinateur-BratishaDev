@@ -104,22 +104,22 @@ main {
     margin: 5%;
 }
 
-footer {
-    padding-top: 50px;
-    text-align: center;
-}
-
-div.logo-box {
-    display: flex;
-    justify-content: center;
-}
 main #photo {
     max-width: 150px;
     border-radius: 360px;
 }
-main h1 {
+main h1, div.logo-box {
     display: flex;
     justify-content: center;
+
+}
+footer {
+    padding-top: 50px;
+    display: inline-block;
+    text-align: center;
 }
 
-
+footer a img{
+    width: 50px;
+    gap: 30px;
+}
