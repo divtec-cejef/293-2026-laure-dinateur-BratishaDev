@@ -69,34 +69,35 @@ header {
 
 .metier {
     margin-top: -5px;
+    font-family: 'Changa One', sans-serif;
 }
 
 nav {
-    padding: 10px 10px;
-    margin: 20px;
+    padding: 10px 0;
+    margin-top: 20px;
 }
 
-nav ul .Accueil {
+header nav ul .Accueil {
     display: none;
 }
 
-nav ul {
+header nav ul {
     padding: 0;
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
 }
 
-nav ul li {
+header nav ul li {
     padding: 0;
     list-style: none;
     display: inline-block;
 }
-nav ul li a {
+header nav ul li a {
     color: #fdfffc;
     font-weight: 800;
     gap: 30px;
     padding: 15px 10px;
 }
-nav ul li a:hover {
+header nav ul li a:hover {
     color: #2ec4b6;
 }
 
@@ -115,11 +116,25 @@ main h1, div.logo-box {
 }
 footer {
     padding-top: 50px;
-    display: inline-block;
     text-align: center;
 }
 
-footer a img{
+footer nav li a img {
     width: 50px;
-    gap: 30px;
+    margin: 0 15px;
+    filter: grayscale(1);
+}
+
+footer nav li {
+    list-style : non;
+    display: inline-block;
+}
+
+footer nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul {
+    padding-inline-start: 0;
 }
