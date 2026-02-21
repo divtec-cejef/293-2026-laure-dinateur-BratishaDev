@@ -138,3 +138,8 @@ footer nav ul {
 footer nav ul {
     padding-inline-start: 0;
 }
+
+footer nav li a img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
+}
