@@ -52,6 +52,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 header {
     text-align: center;
     background-color: #011627;
@@ -145,7 +149,7 @@ footer nav li a img:hover {
     justify-content: center;
 }
 
-.page-infos main h1 {
+.page-infos, .page-accueil main h1 {
     text-align: center;
     line-height: 3rem;
 }
@@ -153,7 +157,6 @@ footer nav li a img:hover {
 .page-contact .contact-info {
     margin-left: 10px;
     padding: 0;
-    list-style: none;
 }
 
 .page-contact .contact-info li {
@@ -181,4 +184,25 @@ footer nav li a img:hover {
 
 .page-contact .contact-info li a[href^="https://twitter.com/"] {
     background-image: url('../_sources/images/twitter.png');
+}
+
+.page-accueil main ul li {
+    display:inline-block;
+    vertical-align:top;
+    margin: 2.5%;
+    max-width: 45%;
+}
+.page-accueil main ul li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.page-accueil main ul li a figure {
+    background-color: #e7e9eb;
+}
+
+.page-accueil ul li a figure figcaption {
+    padding: 10px;
+    font-size: 1rem;
+    overflow: hidden;
 }
