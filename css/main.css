@@ -109,11 +109,7 @@ main #photo {
     max-width: 150px;
     border-radius: 360px;
 }
-main h1, div.logo-box {
-    display: flex;
-    justify-content: center;
 
-}
 footer {
     padding-top: 50px;
     text-align: center;
@@ -142,4 +138,47 @@ footer nav ul {
 footer nav li a img:hover {
     filter: grayscale(0);
     transition: filter 500ms linear;
+}
+
+.page-infos main h1, div.logo-box {
+    display: flex;
+    justify-content: center;
+}
+
+.page-infos main h1 {
+    text-align: center;
+    line-height: 3rem;
+}
+
+.page-contact .contact-info {
+    margin-left: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.page-contact .contact-info li {
+    margin-bottom: .5em;
+}
+
+.page-contact .contact-info li a {
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 2px;
+    padding-left: 30px;
+}
+
+.page-contact .contact-info li a[href^="mailto:"] {
+    background-image: url('../_sources/images/mail.png');
+}
+
+.page-contact .contact-info li a[href^="tel:"] {
+    background-image: url('../_sources/images/phone.png');
+}
+
+.page-contact .contact-info li a[href^="https://facebook.com"] {
+    background-image: url('../_sources/images/facebook.png');
+}
+
+.page-contact .contact-info li a[href^="https://twitter.com/"] {
+    background-image: url('../_sources/images/twitter.png');
 }
