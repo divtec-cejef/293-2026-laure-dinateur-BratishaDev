@@ -186,23 +186,34 @@ footer nav li a img:hover {
     background-image: url('../_sources/images/twitter.png');
 }
 
-.page-accueil main ul li {
-    display:inline-block;
+.page-accueil main ul {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.page-accueil main ul li, .page-accueil main ul li img {
     vertical-align:top;
+}
+
+.page-accueil main ul li {
+    display: inline-block;
     margin: 2.5%;
     max-width: 45%;
 }
 .page-accueil main ul li img {
     max-width: 100%;
     height: auto;
-    display: block;
+    font-size: 1rem;
 }
 .page-accueil main ul li a figure {
     background-color: #e7e9eb;
+    margin: 0;
 }
 
 .page-accueil ul li a figure figcaption {
     padding: 10px;
     font-size: 1rem;
     overflow: hidden;
+    color: #011627;
 }
